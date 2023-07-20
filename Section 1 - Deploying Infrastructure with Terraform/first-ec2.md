@@ -9,8 +9,8 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 ```sh
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAYREVECK6II2SQ7KA"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_instance" "myec2" {
